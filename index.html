@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>Relationship Plus</title>
+
+</head>
+
+<style>
+	.section-padding {
+		padding-top: 100px;
+		padding-bottom: 100px;
+	}
+
+	.container .container-fluid {
+		position: relative;
+	}
+
+	.row {
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+
+	.featured-block:hover .featured-block-text {
+		margin-top: 0;
+	}
+
+	.featured-block-text {
+		color: #5bc1ac;
+		font-size: 24px;
+		margin-top: 20px;
+		transition: all 0.5s;
+	}
+
+	.featured-block {
+		text-align: center;
+		transition: all 0.5s ease;
+		min-height: 256px;
+		padding: 15px;
+	}
+
+	.section-bg {
+		background-color: #f0f8ff;
+	}
+
+	.custom-text-box {
+		padding: 30px;
+	}
+
+	#hero-slide .carousel-item {
+		height: 680px;
+		min-height: 680px;
+	}
+
+	.hero-section-full-height {
+		height: 680px;
+		min-height: 680px;
+		position: relative;
+	}
+
+	.img-fluid {
+		max-width: 100%;
+		height: 100%;
+	}
+
+	.carousel:hover .carousel-control-next-icon, 
+	.carousel:hover .carousel-control-prev-icon {
+		opacity: 1;
+	}
+
+	.carousel-control-next-icon, 
+	.carousel-control-prev-icon {
+		opacity: 1;
+		width: 60px;
+		height: 60px;
+	}
+	.carousel-control-next-icon, 
+	.carousel-control-prev-icon {
+		width: 45px;
+		height: 45px;
+	}
+	.hero-section-full-height {
+		height: 680px;
+		min-height: 680px;
+		position: relative;
+	}
+
+	.carousel:hover .carousel-control-next-icon, 
+	.carousel:hover .carousel-control-prev-icon {
+		opacity: 1;
+	}
+
+	#hero-slide .carousel-item {
+		height: 680px;
+		min-height: 680px;
+	}
+
+	#hero-slide .carousel-caption-block {
+		height: 680px;
+		min-height: 680px;
+		width: 55%;
+		max-width: 55%;
+	}
+
+	#hero-slide .carousel-caption {
+		background: #ffffff;
+		color: #5a6f80;
+		top: auto;
+		bottom: 0;
+		right: 0;
+		left: auto;
+		text-align: right;
+		min-height: 680px;
+		padding: 100px 100px 50px 100px;
+		word-wrap: break-word; /* 自動換行 */
+        overflow-wrap: break-word; /* 兼容性 */
+	}
+
+	#hero-slide .carousel-img-block {
+		height: 680px;
+		min-height: 680px;
+		width: 45%;
+		min-width: 45%;
+	}
+
+	.carousel-image {
+		display: block;
+		width: 100%;
+		height: 100%;
+		max-height: 680px;
+		object-fit: contain;
+	}
+
+	#hero-slide .carousel-indicators-wrap {
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		left: 0;
+	}
+
+	#hero-slide .carousel-indicators {
+		margin-right: 0;
+		margin-left: 22px;
+		justify-content: inherit;
+	}
+
+	.carousel-control-next, 
+	.carousel-control-prev {
+		opacity: 1;
+	}
+
+	.carousel-control-next-icon, 
+	.carousel-control-prev-icon {
+		background-color: #5a6f80;
+		border-radius: 100px;
+		background-size: 60% 60%;
+		width: 80px;
+		height: 80px;
+		opacity: 0;
+		transition: all 0.5s;
+	}
+
+	.carousel-control-next-icon:hover, 
+	.carousel-control-prev-icon:hover {
+		background-color: #5bc1ac;
+	}
+
+	.active {
+		background: transparent;
+		width: 50px; 
+		height: 50px;
+	}
+
+</style>
+
+<body id="section_1">
+
+	<main>
+		<section class="hero-section hero-section-full-height">
+			<div class="container-fluid">
+				<div class="row">
+
+					<div class="col-lg-12 col-12 p-0">
+						<div id="hero-slide" class="carousel carousel-fade slide" data-bs-ride="carousel">
+							<div class="carousel-inner">
+								<div class="carousel-item active col-lg-6 col-md-6 col-6">
+									<div class="carousel-img-block">
+										<img src="images/home.jpg" class="carousel-image img-fluid" alt="...">
+									</div>
+
+									<div class="carousel-caption-block col-lg-6 col-md-6 col-6">
+										<div class="carousel-caption">
+											<h1>Looking All Schedule And Task</h1>
+
+											<p>Looking Schedule And Add Task</p>
+										</div>
+									</div>
+									
+									
+								</div>
+
+								<div class="carousel-item">
+									<div class="carousel-img-block">
+										<img src="images/addTask.jpg" class="carousel-image img-fluid" alt="...">
+									</div>
+									<div class="carousel-caption-block">
+										<div class="carousel-caption">
+											<h1>Add New Task to do</h1>
+
+											<p>Add New Task to do</p>
+										</div>
+									</div>
+								</div>
+
+
+								<div class="carousel-item">
+									<div class="carousel-img-block">
+										<img src="images/schedule.jpg" class="carousel-image img-fluid" alt="...">
+									</div>
+
+									<div class="carousel-caption-block">
+										<div class="carousel-caption">
+											<h1>Looking Your Task List</h1>
+
+											<p>Looking Your Task List And Tasks Status</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="carousel-item">
+									<div class="carousel-img-block">
+										<img src="images/friendList.jpg" class="carousel-image img-fluid" alt="...">
+									</div>
+
+									<div class="carousel-caption-block">
+										<div class="carousel-caption">
+											<h1>Looking Your Friend List</h1>
+
+											<p>Looking Your Friend List</p>
+										</div>
+									</div>
+								</div>
+
+								<div class="carousel-item">
+									<div class="carousel-img-block">
+										<img src="images/friendSchedule.jpg" class="carousel-image img-fluid" alt="...">
+									</div>
+
+									<div class="carousel-caption-block">
+										<div class="carousel-caption">
+											<h1>Looking Friend Task List</h1>
+
+											<p>Looking Friend Task List And Tasks Status</p>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+							<button class="carousel-control-prev" type="button" data-bs-target="#hero-slide" data-bs-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Previous</span>
+							</button>
+
+							<button class="carousel-control-next" type="button" data-bs-target="#hero-slide" data-bs-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Next</span>
+							</button>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<section class="section-padding">
+			<div class="container">
+
+				<div class="row">
+					<div class="col-lg-12 col-12 text-center mx-auto">
+						<h2 class="mb-5">Welcome to Relationship Plus</h2>
+					</div>
+
+					<div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
+						<div class="featured-block d-flex justify-content-center align-items-center">
+							<div class="d-block">
+								<img src="icons/game.png" width="128px" height="128px" alt="">
+								<p class="featured-block-text">Design Your <strong>Own Game</strong></p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0 mb-md-4">
+						<div class="featured-block d-flex justify-content-center align-items-center">
+							<div class="d-block">
+								<img src="icons/gift.png" width="128px" height="128px" alt="">
+								<p class="featured-block-text"><strong>Unique</strong> gift</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0 mb-md-4">
+						<div class="featured-block d-flex justify-content-center align-items-center">
+							<div class="d-block">
+								<img src="icons/Lego.png" width="128px" height="128px" alt="">
+								<p class="featured-block-text"><strong>Customize</strong> Your Own Game Content</p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-3 col-md-6 col-12 mb-4 mb-lg-0">
+						<div class="featured-block d-flex justify-content-center align-items-center">
+							<div class="d-block">
+								<img src="icons/relationship.png" width="128px" height="128px" alt="">
+								<p class="featured-block-text">Enhance Feelings Through <strong>Memories</strong></p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+		</section>
+
+		<section class="section-padding section-bg" id="section_2">
+			<div class="container">
+				<div class="custom-text-box">
+					<h2 class="mb-2">感情加佳++</h2>
+
+					<h5 class="mb-3">
+						<a href="https://www.youtube.com/watch?v=t1sK5J5-XtE" target="_blank">Click Me To Youtebe</a>
+					</h5>
+
+					<p class="mb-0">感情加佳++的理念是可以將遊戲作爲禮物送給朋友或者伴侶，從而增進彼此的感情，在遊玩過程中可以增加彼此的話題，為生活添增樂趣。除此之外，該平台透過與社交通訊軟體結合，達到輕鬆製作遊戲，在製作過程中讓使用者可以用類似於 Google Form的線上數位內容編輯服務，使用者可以以簡單地方式將雙方的回憶，透過文字、圖片與一系列的小遊戲來呈現，並置入到瀏覽器當中。讓顧客可以根據每個人不同的經歷，親自參與設計一個只屬於小團體之間的故事與冒險，讓對方在遊玩的過程中可以勾起交往的時光與回憶。
+					</p>
+				</div>
+			</div>
+		</section>
+
+	</main>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
